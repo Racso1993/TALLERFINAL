@@ -56,4 +56,21 @@ print(num_encasa)
 print() 
 
 
+3 ejercicio
+@@ -42,6 +42,7 @@
+print(num_muni)
+print()
+
+#////////////////////////////////
+# municipios afectados
+
+data['Ubicación del caso'].replace('casa','Casa',inplace=True)
+@@ -54,4 +55,22 @@
+num_encasa = len(data[data['Ubicación del caso'] == 'Casa'])
+print("Punto 4")
+print(num_encasa)
+print() 
+print()
+
+
 
