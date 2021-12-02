@@ -481,3 +481,17 @@ Recuperado.groupby('Nombre municipio').size().sort_values(ascending=False).head(
 plt.legend()
 plt.show() 
 plt.show()
+
+
+30 ejercicio
+#punto 30
+
+falleEdad = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Edad').size().sort_values(ascending = False)
+print("Punto 30")
+print(falleEdad)
+print() 
+
+falleEdad = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Edad').size().sort_values(ascending = False)
+print("Punto 30")
+print(falleEdad)
+print()
