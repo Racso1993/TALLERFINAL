@@ -495,3 +495,18 @@ falleEdad = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Edad').siz
 print("Punto 30")
 print(falleEdad)
 print()
+
+
+31 ejercicio
+#punto 31
+
+porcAten = ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)) / ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)).sum())) * 100
+print("Punto 31")
+print(porcAten)
+print() 
+
+porcAten = ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)) / ((data.groupby('Ubicación del caso').size().sort_values(ascending = False)).sum())) * 100
+print("Punto 31")
+print(porcAten)
+print() 
+print()
