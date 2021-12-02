@@ -526,3 +526,10 @@ data.groupby(['Ubicación del caso']).size().sort_values(ascending = False).plot
 data.groupby(['Sexo']).size().sort_values(ascending = False).plot(kind='bar') 
 data.groupby(['Sexo']).size().sort_values(ascending = False).plot(kind='bar') 
 data.groupby(['Sexo']).size().sort_values(ascending = False).plot(kind='bar')
+
+
+34 ejercicio
+#punto 34
+
+data.groupby(['Tipo de contagio']).size().sort_values(ascending = False).plot(kind='bar') 
+data.groupby(['Tipo de contagio']).size().sort_values(ascending = False).plot(kind='bar')
