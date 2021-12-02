@@ -238,3 +238,15 @@ print("Punto 13")
 print(topDeptRe)
 print() 
 print()
+
+
+14 ejercicio
+#punto 14
+
+topMunCo = data.groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 14")
+print(topMunCo)
+print()
+
+print(topMunCo)
+print()
