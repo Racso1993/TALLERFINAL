@@ -305,3 +305,17 @@ genCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).size
 print("Punto 18")
 print(genCiudad)
 print()
+
+
+19 ejercicio
+#punto 19
+
+promCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).Edad.mean()
+print("Punto 19")
+print(promCiudad)
+print()
+
+promCiudad = data.groupby(['Nombre departamento','Nombre municipio','Sexo']).Edad.mean()
+print("Punto 19")
+print(promCiudad)
+print()
