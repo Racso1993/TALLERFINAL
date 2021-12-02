@@ -250,3 +250,18 @@ print()
 
 print(topMunCo)
 print()
+
+
+15 ejercicio
+#punto 15
+
+
+topMunFa = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 15")
+print(topMunFa)
+print()
+
+topMunFa = data[data['Ubicación del caso'] == 'Fallecido'].groupby('Nombre municipio').size().sort_values(ascending = False).head(10)
+print("Punto 15")
+print(topMunFa)
+print()
